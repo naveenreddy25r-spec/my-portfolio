@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Landing — Your Brand</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner fixed-top">
+      <a class="logo" href="#">R Naveen Kumar Reddy</a>
+
+      <nav class="nav" id="navMenu" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Project</a></li>
+          <li><a href="#testimonials">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Hello, I'm Naveen Reddy</h1>
+          <p>I am a passionate Full Stack MERN Developer with hands-on experience in building dynamic, scalable, and user-friendly web applications. I enjoy transforming ideas into real-world solutions using React, Node.js, Express, and SQLite.</deployp>
+          <div class="hero-cta">
+            <a class="btn primary" href="#features">Explore Projects</a>
+            <a class="btn ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- Replace with actual exported image from Figma -->
+          <img src="1.jpg"  class="img-1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="features" class="section features">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <img src="Diwali.image.jpg" alt="" class="feature-icon" />
+            <h3>Diwali</h3>
+            <p>A beautifully designed Diwali greeting webpage created using HTML, CSS, and JavaScript.It features festive colors and interactive elements to deliver a joyful user experience</p>
+          </article>
+
+          <article class="feature-card">
+            <img src="wiki image.webp" alt="" class="feature-icon" />
+            <h3>Wikipedia</h3>
+            <p>A JavaScript-based web application that allows users to search Wikipedia articles in real time using the official API.</p>
+          </article>
+
+          <article class="feature-card">
+            <img src="jpeg-to-doc-for-typing-projects-500x500.webp" alt="" class="feature-icon" />
+            <h3>Typing</h3>
+            <p>A responsive typing speed tester built using JavaScript to measure typing speed, accuracy, and time.It provides real-time feedback and results, helping users improve their typing skills effectively..</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div>
+          <h2>About Me</h2>
+          <p>Hello, I’m Naveen Kumar Reddy. I recently completed my graduation in Electrical Engineering, and during my academic journey, I developed a strong interest in Web Development. I have been actively building projects using HTML, CSS, JavaScript, and exploring both frontend and backend concepts. I enjoy creating responsive, user-friendly websites and continuously improving my skills to grow as a professional developer. I am passionate about learning, building real-world applications, and starting my career in the IT industry.  </p>
+          <div>
+            <h2>Hobbies</h2>
+          </div>
+
+          <ul class="about-list">
+            <li>Playing chess</li>
+            <li>Playing cricket</li>
+            <li>Watching sci-fi movies and web series on Netflix</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial">
+            <p>HTML</p>
+          </div>
+          <div class="testimonial">
+            <p>CSS</p>
+          </div>
+          <div class="testimonial">
+            <p>Javascript</p>
+          </div>
+          <div class="testimonial">
+            <p>Bootstrap</p>
+          </div>
+          <div class="testimonial">
+            <p>Python</p>
+          </div>
+          <div class="testimonial">
+            <p>SQLite</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer anchor -->
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Get in touch</h2>
+        <form class="contact-form" onsubmit="return false;">
+          <label>
+            <span class="sr-only">Name</span>
+            <input type="text" placeholder="Your name" required />
+          </label>
+          <label>
+            <span class="sr-only">Email</span>
+            <input type="email" placeholder="Email" required />
+          </label>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>&copy; <span id="year"></span> Naveen Kumar Reddy — All rights reserved</div>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#features">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
